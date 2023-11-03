@@ -1,76 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.5.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="estilo.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
-  </head>
-  <body> 
-    <div class="form">
-      <h1 class="h1"><center><span id="web" class="text-primary">Web</span><span id="developer" class="text-primary">Developer</span></center></h1>
-      <div class="frame">
-        <form>
-          <center>
-            <p class="text" id="Tituloform">formulario de afiliación</p>
-            <div class="input-container">
-              <input class="input form-control" type="text"
-                name="nombredeusuario" id="name"
-                placeholder="Nombre completo"><svg class="svg"
-                xmlns="http://www.w3.org/2000/svg" height="1em"
-                viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#4c4e52}</style><path
-                  d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5-21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z" /></svg><br>
-              <input class="input form-control" type="email"
-                name="nombredeusuario" id="email"
-                placeholder="Email"><svg class="svg"
-                xmlns="http://www.w3.org/2000/svg"
-                height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#46494e}</style><path
-                  d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z" /></svg><br>
-              <input class="input form-control" type="text" name="tel"
-                id="tel" placeholder="Teléfono"><svg class="svg"
-                xmlns="http://www.w3.org/2000/svg" height="1em"
-                viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#3e3f41}</style><path
-                  d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z" /></svg><br>
-              <div class="gustos">
-                <input class="input01" type="text" name="gustos"
-                  id="gustos">
-                <button class="button" type="submit" id="agregarGusto"> Gusto </button>
-              </div>
-              <div class="card-table">
-                <div class="flex-table">
-                  <div class="flag">
-                    <svg class="flag-svg"
-                      xmlns="http://www.w3.org/2000/svg"
-                      height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path
-                      d="M336.174 80c-49.132 0-93.305-32-161.913-32-31.301 0-58.303 6.482-80.721 15.168a48.04 48.04 0 0 0 2.142-20.727C93.067 19.575 74.167 1.594 51.201.104 23.242-1.71 0 20.431 0 48c0 17.764 9.657 33.262 24 41.562V496c0 8.837 7.163 16 16 16h16c8.837 0 16-7.163 16-16v-83.443C109.869 395.28 143.259 384 199.826 384c49.132 0 93.305 32 161.913 32 58.479 0 101.972-22.617 128.548-39.981C503.846 367.161 512 352.051 512 335.855V95.937c0-34.459-35.264-57.768-66.904-44.117C409.193 67.309 371.641 80 336.174 80zM464 336c-21.783 15.412-60.824 32-102.261 32-59.945 0-102.002-32-161.913-32-43.361 0-96.379 9.403-127.826 24V128c21.784-15.412 60.824-32 102.261-32 59.945 0 102.002 32 161.913 32 43.271 0 96.32-17.366 127.826-32v240z" /></svg>
-                  </div>
-                  <div>
-                    <table id="table">
-                      <thead>
-                        <tr>
-                          <th>Gusto</th>
-                          <th class="thp">%</th>
-                          <th>edit</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <!-- Aquí se agregarán las filas dinámicamente -->
-                      </tbody>
-                    </table>
-                  </div>
+<head>
+  <link rel="stylesheet" href="estilo.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario</title>
+</head>
+<body>
+  <div class="form">
+    <h1><center>WebDeveloper</center></h1>
+    <div class="frame">
+      <form class="classform">
+        <center>
+          <p>formulario de afiliación</p>
+          <div class="input-container">
+            <input class="input" type="text"
+              name="nombredeusuario" id="name"
+              placeholder="Nombre completo"><svg class="svg"
+              xmlns="http://www.w3.org/2000/svg" height="1em"
+              viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#4c4e52}</style><path
+                d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5-21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z" /></svg><br>
+            <input class="input" type="email"
+              name="email" id="email"
+              placeholder="Email"><svg class="svg"
+              xmlns="http://www.w3.org/2000/svg"
+              height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#46494e}</style><path
+                d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z" /></svg><br>
+            <input class="input" type="text" name="tel"
+              id="tel" placeholder="Teléfono"><svg class="svg"
+              xmlns="http://www.w3.org/2000/svg" height="1em"
+              viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#3e3f41}</style><path
+                d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z" /></svg><br>
+            <div class="gustos">
+              <input class="input01" type="text" name="gustos"
+                id="gustos">
+              <button class="button" type="submit" id="agregarGusto"> Gusto </button>
+            </div>
+            <div class="card-table">
+              <div class="flex-table">
+                <div class="flag">
+                  <svg class="flag-svg"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path
+                    d="M336.174 80c-49.132 0-93.305-32-161.913-32-31.301 0-58.303 6.482-80.721 15.168a48.04 48.04 0 0 0 2.142-20.727C93.067 19.575 74.167 1.594 51.201.104 23.242-1.71 0 20.431 0 48c0 17.764 9.657 33.262 24 41.562V496c0 8.837 7.163 16 16 16h16c8.837 0 16-7.163 16-16v-83.443C109.869 395.28 143.259 384 199.826 384c49.132 0 93.305 32 161.913 32 58.479 0 101.972-22.617 128.548-39.981C503.846 367.161 512 352.051 512 335.855V95.937c0-34.459-35.264-57.768-66.904-44.117C409.193 67.309 371.641 80 336.174 80zM464 336c-21.783 15.412-60.824 32-102.261 32-59.945 0-102.002-32-161.913-32-43.361 0-96.379 9.403-127.826 24V128c21.784-15.412 60.824-32 102.261-32 59.945 0 102.002 32 161.913 32 43.271 0 96.32-17.366 127.826-32v240z" /></svg>
+                </div>
+                <div>
+                  <table id="table">
+                    <thead>
+                      <tr>
+                        <th>Gusto</th>
+                        <th class="thp">%</th>
+                        <th>edit</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <!-- Aquí se agregarán las filas dinámicamente -->
+                    </tbody>
+                  </table>
                 </div>
               </div>
             </div>
-            <div>              
-              <p class="text">Pulse Aceptar para guardar los cambios o Cancelar <br> para anularlos</p>
-              <button id="actualizar" type="button">Aceptar</button>
-              <button id="cancelar" type="button">Cancelar</button></div>
-          </center>
-        </form>
-      </div>
+          </div>
+
+          <div class="fix-buttons">
+            <div id="mensaje" style="display: none">
+              Pulse Aceptar para guardar los cambios o Cancelar <br> para anularlos
+          </div><br>
+            <button id="actualizar" type="button" style="display: none">Aceptar</button>
+            <button id="cancelar" type="button" style="display: none" onclick= >Cancelar</button>
+          </div>
+          <div class="linkpw"><a href="https://sites.google.com/view/dweb1-uis/contenido?authuser=0"><p>Ir a Site de P web</p></a></div>
+      </form> </center>
     </div>
-    <script src="jquery-3.7.1.min.js"></script>
-    <script src="logica.js"></script>
-  </body>
+  </div>
+  <script src="jquery-3.7.1.min.js"></script>
+  <script src="logica.js"></script>
+  <script>
+      const recargarBtn = document.getElementById('cancelar');
+      recargarBtn.addEventListener('click', function () {      
+          location.reload();
+      });
+  </script>
+</body>
 </html>

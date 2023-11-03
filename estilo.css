@@ -1,90 +1,78 @@
-/* Estilos para la tabla */
-table, th, td {
+table,th,td{
     border: 1px solid black;
 }
 
-/* Estilos para la forma y el cuerpo */
-.form {
+.form{
     display: flex;
     align-items: center;
     flex-direction: column;
     font-size: small;
-    font-family: sans-serif;
+    font-family: sans-serif ;
 }
-
-body {
-    color:#e8ecef;
-    background-color: #E8ECEF;
+body{
+    color: grey;
+    background-color:#E8ECEF ;
 }
-
-.frame {
+.frame{
     background-color: rgb(255, 255, 255);
     min-width: 320px;
+    
     box-shadow: 1px 1px 1px 1px rgba(180, 180, 207, 0.75);
 }
-
-.input-container {
+.input-container{
     margin: 10%;
 }
-
-
-.form .input {
+.form .input{
     width: 95%;
-    padding: 5px;
-    border: 1px solid rgba(128, 128, 128, 0.582);
+    padding:5px ;
+    border: 0.1em solid rgba(128, 128, 128, 0.582);
     border-radius: 0.2em;
-}
 
-.gustos {
+}
+.gustos{
     display: flex;
 }
-
 
 .input01 {
     width: 100%;
     padding: 5px;
-    border: 1px solid rgba(128, 128, 128, 0.596);
-    border-radius: 0.2em 0em 0em 0.2em;
+    border: 0.1em solid rgba(128, 128, 128, 0.596);
+    border-radius: 0.2em 0em  0em 0.2em;
 }
-
-
-.button {
+.button{
     white-space: pre;
     background-color: white;
     border: 1px solid green;
-    border-radius: 0em 0.2em 0.2em 0em;
+    border-radius: 0em 0.2em  0.2em 0em;
     color: green;
 }
-
-
-.button:hover {
+.button:hover{
     background: green;
     color: white;
 }
 
-.card-table {
+.card-table{
     margin-top: 7%;
     background-color: rgb(255, 255, 255);
     border-radius: 0.15em;
-    border: none;
+    border:none;
     box-shadow: 1px 1px 1px 1px rgba(180, 180, 207, 0.75);
-}
+   
 
-.flex-table {
+}
+.flex-table{
     display: flex;
     padding: 3%;
 }
 
-
-.flag {
+.flag{
     content: '';
+    
     border-radius: 0.2em;
     background-color: #27A747;
     max-width: 50px;
 }
-
-
-.flag-svg {
+.flag-svg{
     padding: 12px;
     width: 40%;
     height: 100%;
@@ -92,86 +80,100 @@ body {
     top: -10px;
 }
 
-
 .svg {
     width: 8%;
     position: relative;
     top: -20px;
-    left: 95px;
-    fill: #838688;
-    margin: 0;
+    left: 110px;
+    fill:#838688;
+    margin:0;
 }
-
-
-table {
+table{
     margin-left: 5%;
+    
+}
+table, tr, th, td{
+      border-collapse: collapse;
+      border: 1px solid rgba(116, 116, 116, 0.575); 
+      white-space: wrap ;
+      overflow-wrap: break-word
+      
 }
 
-
-table, tr, th, td {
-    border-collapse: collapse;
-    border: 1px solid rgba(116, 116, 116, 0.575);
-    white-space: wrap;
-    overflow-wrap: break-word;
-}
-
-
-th .thp {
+th .thp{
     font-family: sans-serif;
-    font-size: 11px;
+    font-size:11px;
     font-weight: bolder;
+
 }
 
-.thp,
-#tph {
-    height: 27px;
+.thp, #tph{
+    height: 27px ;
     max-width: 20px;
     min-width: 20px;
     padding-right: 10px;
     padding-left: 5px;
 }
 
-
-th,
-td {
-    height: 27px;
+th, td{
+    height: 27px ;
     min-width: 50px;
     max-width: 50px;
     padding-right: 10px;
     padding-left: 5px;
-    color: #686b72;
+   
+    
 }
 
-
-#edit-input {
+#edit-input{
     width: 100%;
 }
 
-
-#edit-input:focus {
+#edit-input:focus{
     width: 100%;
     outline: 1px solid orange;
     box-shadow: 1px 1px 3px 1px orange;
 }
 
-::placeholder{
-   
-    color: #838688;
+#cancelar{
+    white-space: pre;
+    background-color: white;
+    border: 1px solid rgb(128, 0, 0);
+    border-radius: 0.2em;
+    color: rgb(128, 0, 0);
+    font-size: 12px;
+    height: 30px;
+    width: 20%;
+    margin: 5px;
+}
+
+
+
+#actualizar{
+    white-space: pre;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius:  0.2em;
+    color: grey;
+    font-size: 12px;
+    height: 30px;
+    width: 20%;
+    margin: 5px;
     
 }
-#web{
-    font-family:  «Helvetica Neue», Helvetica, Arial, sans-serif;
-    color: #48525a;
+
+#actualizar:hover{
+    background: grey;
+    color: white;
 }
-#developer{
-    font-family:  «Helvetica Neue», Helvetica, Arial, sans-serif;
-    color: #5d6f87;
+#cancelar:hover{
+    background: red;
+    color: white;
 }
-#Tituloform{
-    color: #706f6b;
+#texto{
+    color: black;
 }
-.form{
-    display: flex;
-    align-items: center;
-    height: 100vh;
+.linkpw{
+    text-align: left;
+    margin: 5px;
 }

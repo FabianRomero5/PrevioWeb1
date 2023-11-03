@@ -1,1 +1,2 @@
 # PrevioWeb1
+Para mandar los datos con el boton "Aceptar" es necesario: clickar 1 vez para que guarde los cambios en la tabla y hacer un doble click para que envie los datos y lo referencia al segundo html que es donde esta la ficha
