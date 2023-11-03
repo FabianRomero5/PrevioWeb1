@@ -1,0 +1,177 @@
+/* Estilos para la tabla */
+table, th, td {
+    border: 1px solid black;
+}
+
+/* Estilos para la forma y el cuerpo */
+.form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: small;
+    font-family: sans-serif;
+}
+
+body {
+    color:#e8ecef;
+    background-color: #E8ECEF;
+}
+
+.frame {
+    background-color: rgb(255, 255, 255);
+    min-width: 320px;
+    box-shadow: 1px 1px 1px 1px rgba(180, 180, 207, 0.75);
+}
+
+.input-container {
+    margin: 10%;
+}
+
+
+.form .input {
+    width: 95%;
+    padding: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.582);
+    border-radius: 0.2em;
+}
+
+.gustos {
+    display: flex;
+}
+
+
+.input01 {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.596);
+    border-radius: 0.2em 0em 0em 0.2em;
+}
+
+
+.button {
+    white-space: pre;
+    background-color: white;
+    border: 1px solid green;
+    border-radius: 0em 0.2em 0.2em 0em;
+    color: green;
+}
+
+
+.button:hover {
+    background: green;
+    color: white;
+}
+
+.card-table {
+    margin-top: 7%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.15em;
+    border: none;
+    box-shadow: 1px 1px 1px 1px rgba(180, 180, 207, 0.75);
+}
+
+.flex-table {
+    display: flex;
+    padding: 3%;
+}
+
+
+.flag {
+    content: '';
+    border-radius: 0.2em;
+    background-color: #27A747;
+    max-width: 50px;
+}
+
+
+.flag-svg {
+    padding: 12px;
+    width: 40%;
+    height: 100%;
+    position: relative;
+    top: -10px;
+}
+
+
+.svg {
+    width: 8%;
+    position: relative;
+    top: -20px;
+    left: 95px;
+    fill: #838688;
+    margin: 0;
+}
+
+
+table {
+    margin-left: 5%;
+}
+
+
+table, tr, th, td {
+    border-collapse: collapse;
+    border: 1px solid rgba(116, 116, 116, 0.575);
+    white-space: wrap;
+    overflow-wrap: break-word;
+}
+
+
+th .thp {
+    font-family: sans-serif;
+    font-size: 11px;
+    font-weight: bolder;
+}
+
+.thp,
+#tph {
+    height: 27px;
+    max-width: 20px;
+    min-width: 20px;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+
+th,
+td {
+    height: 27px;
+    min-width: 50px;
+    max-width: 50px;
+    padding-right: 10px;
+    padding-left: 5px;
+    color: #686b72;
+}
+
+
+#edit-input {
+    width: 100%;
+}
+
+
+#edit-input:focus {
+    width: 100%;
+    outline: 1px solid orange;
+    box-shadow: 1px 1px 3px 1px orange;
+}
+
+::placeholder{
+   
+    color: #838688;
+    
+}
+#web{
+    font-family:  «Helvetica Neue», Helvetica, Arial, sans-serif;
+    color: #48525a;
+}
+#developer{
+    font-family:  «Helvetica Neue», Helvetica, Arial, sans-serif;
+    color: #5d6f87;
+}
+#Tituloform{
+    color: #706f6b;
+}
+.form{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
